@@ -1,0 +1,23 @@
+PORTFOLIO - COPIA ESTATICA
+==========================
+
+Esta carpeta es una web estatica (HTML + CSS), sin servidor ni base de datos.
+Se puede alojar gratis en Cloudflare Pages, Netlify o GitHub Pages.
+
+FALTAN LOS ARCHIVOS MULTIMEDIA
+------------------------------
+Copia estos 4 archivos a la carpeta "assets" (estan en la carpeta
+"Portfolio · selección de proyectos_files" que guardo tu navegador),
+quitando el sufijo "_KR61" del nombre:
+
+  polybius-cover_KR61.png      ->  assets/polybius-cover.png
+  polybius_KR61.mp4            ->  assets/polybius.mp4
+  locked-away-cover_KR61.png   ->  assets/locked-away-cover.png
+  locked-away_KR61.mp4         ->  assets/locked-away.mp4
+
+Si no tienes la carpeta _files, los videos originales siguen en Replit
+mientras la cuenta este activa:
+  https://creative-portfolio--manuelpapirlog.replit.app/api/storage/public-objects/portfolio/polybius.mp4
+  https://creative-portfolio--manuelpapirlog.replit.app/api/storage/public-objects/portfolio/locked-away.mp4
+
+Para probarlo en local: abre index.html con doble clic.

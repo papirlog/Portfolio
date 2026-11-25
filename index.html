@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio · selección de proyectos</title>
+  <meta name="description" content="Una selección visual de proyectos con imágenes, vídeo y páginas web incrustadas.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Portfolio · selección de proyectos">
+  <meta property="og:description" content="Una selección visual de proyectos con imágenes, vídeo y páginas web incrustadas.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Portfolio · selección de proyectos">
+  <meta name="twitter:description" content="Una selección visual de proyectos con imágenes, vídeo y páginas web incrustadas.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="root">
+  <main class="portfolio">
+    <section class="shell projects" id="proyectos" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <h2 id="projects-title">Projects</h2>
+      </div>
+
+      <div class="project-list">
+
+        <div class="project-card-wrap" style="--project-color: #100f0f; --project-ink: #f5eeee; --project-muted-color: #c6a8a8; --project-accent-color: #d12323; --project-image-fade-end: 100%;">
+          <article class="project-card">
+            <div class="project-art" aria-hidden="true">
+              <img alt="" loading="eager" src="assets/polybius-cover.png">
+            </div>
+            <div class="project-content">
+              <span class="project-index">01 / Videogame Master Thesis</span>
+              <h3>Polybius</h3>
+              <p class="project-description">A multiplayer VR puzzle games from 2 to 6 players made with Unity.</p>
+              <span class="project-type">Vídeo</span>
+              <div class="project-preview">
+                <video controls playsinline preload="metadata" aria-label="Vídeo: Polybius">
+                  <source src="assets/polybius.mp4" type="video/mp4">
+                  Tu navegador no puede reproducir este vídeo.
+                </video>
+              </div>
+              <div class="project-actions">
+                <a class="open-link" href="assets/polybius.mp4" target="_blank" rel="noopener noreferrer">Abrir vídeo en otra pestaña
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="project-card-wrap" style="--project-color: #c9d1d1; --project-ink: #1b2729; --project-muted-color: #455355; --project-accent-color: #546b6c; --project-image-fade-end: 86%;">
+          <article class="project-card">
+            <div class="project-art" aria-hidden="true">
+              <img alt="" loading="lazy" src="assets/locked-away-cover.png">
+            </div>
+            <div class="project-content">
+              <span class="project-index">02 / Higher Vocational Training in Video Game Development final project</span>
+              <h3>Locked Away</h3>
+              <p class="project-description">A multiplayer puzzle game for 2 players made with Unity.</p>
+              <span class="project-type">Vídeo</span>
+              <div class="project-preview">
+                <video controls playsinline preload="metadata" aria-label="Vídeo: Locked Away">
+                  <source src="assets/locked-away.mp4" type="video/mp4">
+                  Tu navegador no puede reproducir este vídeo.
+                </video>
+              </div>
+              <div class="project-actions">
+                <a class="open-link" href="assets/locked-away.mp4" target="_blank" rel="noopener noreferrer">Abrir vídeo en otra pestaña
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  </div>
+</body>
+</html>
